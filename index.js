@@ -5,7 +5,7 @@ const cors = require('cors')
 const bodyParser = require('body-parser')
 const path = require('path')
 
-const mongoURL = 'mongodb://localhost:27017/movieappagung'
+const mongoURL = 'mongodb://localhost:27017/movieappraden'
 mongoose.connect(mongoURL, {
   useCreateIndex: true,
   useNewUrlParser: true,
